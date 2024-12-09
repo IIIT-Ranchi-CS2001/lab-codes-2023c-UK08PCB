@@ -1,0 +1,7 @@
+z1=complex(input("enter the impedence 1:"))
+z2=complex(input("enter the impedence 2:"))
+result=(z1*z2)/(z1+z2)
+print("the impedence 1 is:",z1.real,"+ j",z1.imag)
+print("the impedence 2 is:",z2.real,"+ j",z2.imag)
+print("the real part of resultant impedence is:",result.real)
+print("the imaginary part of resultant impedence is:",result.imag)
